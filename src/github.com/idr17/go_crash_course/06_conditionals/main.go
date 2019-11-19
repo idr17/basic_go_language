@@ -13,7 +13,7 @@ func main() {
 		fmt.Printf("%d is less than %d\n", b, a)
 	}
 
-	color := "green"
+	color := "red"
 	if color == "red" {
 		fmt.Println("color is red")
 	} else if color == "blue" {

@@ -4,6 +4,8 @@ import "fmt"
 
 func main() {
 
+	// pointer digunakan untu merubah nilai suatu var
+
 	a := 5
 	b := &a // means memory location of pointer a
 

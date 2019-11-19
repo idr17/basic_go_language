@@ -5,8 +5,8 @@ import "fmt"
 func main() {
 
 	// 1
-	// declare
-	// emails := make(map[string]string)
+	// declare. map is key value pairs
+	// emails := make(map[string]string) // map[string] => key string; last string => value string
 
 	// // assign key value
 	// emails["indro"] = "indera.allezz@gmail.com"
@@ -22,5 +22,5 @@ func main() {
 	// add
 	emails["new"] = "new@gmail.com"
 
-	fmt.Println(emails)
+	fmt.Printf("%T", emails)
 }
